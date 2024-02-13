@@ -1,4 +1,8 @@
-h1 {color: green;}
-p {
+html {
+background-color: blue}
+
+h1 {color: red}
+p, ul {
   color: red
+  border: dotted red
 }
