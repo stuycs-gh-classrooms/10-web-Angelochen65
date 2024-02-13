@@ -1,8 +1,5 @@
 html {
-background-color: blue}
+background-color: sand}
 
 h1 {color: red}
-p, ul {
-  color: red
-  border: dotted red
-}
+ul {border: dotted red}
