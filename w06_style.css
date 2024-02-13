@@ -1,5 +1,19 @@
 html {
-background-color: sand}
+background-color: beige}
 
-h1 {color: red}
-ul {border: dotted red}
+h1, h2 {color: red}
+ul {border: dotted red
+    text-align: center 
+   }
+
+p {
+  font-family: Helvetica 
+}
+
+img {
+  border: 1px dashed pink 
+}
+
+a {
+  font-weight: bold
+}
