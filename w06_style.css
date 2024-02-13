@@ -1,17 +1,18 @@
 html {
 background-color: beige}
 
-h1, h2 {color: red}
+h1, h2 {color: red
+       font-weight: bold}
 ul {border: dotted red
     text-align: center 
    }
 
 p {
-  font-family: Helvetica 
+  font-family: Courier New, monospace
 }
 
 img {
-  border: 1px dashed pink 
+  border: 5px dashed pink 
 }
 
 a {
