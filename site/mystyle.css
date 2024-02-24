@@ -4,6 +4,7 @@ nav {
  
 }
 p {
+  border: 3px solid red; 
    font-family: Courier, monospace; 
  
 }
