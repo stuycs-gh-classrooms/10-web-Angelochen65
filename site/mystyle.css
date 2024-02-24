@@ -1,1 +1,7 @@
-p {color: red;}
+nav {
+  display: inline-block;
+  color: red;
+  font-weight: bold;
+  font-family: Bookman, URW Bookman L, serif; 
+}
+
