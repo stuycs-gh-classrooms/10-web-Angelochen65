@@ -1,9 +1,13 @@
 nav {
-  display: inline-block;
+  display: inline
   font-weight: bold;
-  font-family: Bookman, "URW Bookman L", serif; 
+ 
 }
 p {
    font-family: Courier, monospace; 
  
+}
+h1, h2
+{
+  text-align: center; 
 }
