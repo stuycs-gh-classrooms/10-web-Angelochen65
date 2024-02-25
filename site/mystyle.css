@@ -39,7 +39,12 @@ li {
   color: #DDA0DD;
   font-weight: bold; 
 }
-
+img {
+float: right;
+  width: 25%;
+  height: 25%;
+  
+}
 .current {
 background-color: #FFDAB9;
 }
