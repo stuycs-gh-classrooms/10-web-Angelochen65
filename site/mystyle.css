@@ -19,16 +19,25 @@ p {
   margin: 12px;
  
 }
+h1 {
+  text-align: center; 
+  color: #DDA0DD; 
+
+}
+
 
 h2
 {
   text-align: center; 
+  color: #DDA0DD
 }
 
 li {
   display: inline;
   padding: 10px;
   font-size: 20px;
+  color: #DDA0DD;
+  font-weight: bold; 
 }
 
 .current {
