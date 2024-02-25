@@ -2,6 +2,9 @@ html {
 font-family: Courier, monospace; 
   background-color: #FFE4E1;
 }
+body {
+background-color: #FFDAB9;
+}
 nav {
   display: inline
   font-weight: bold;
