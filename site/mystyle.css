@@ -4,6 +4,7 @@ font-family: Courier, monospace;
 }
 body {
 background-color: #FFDAB9;
+width: 75%;
 }
 nav {
   display: inline
