@@ -43,10 +43,9 @@ float: right;
   width: 25%;
   height: 25%;
   margin: 5px; 
-  border: 2px, solid, #FFA07A
+ border: 3px dotted yellow;
 }
-.fun {
-border: 3px dotted yellow}
+
   
 }
 .current {
