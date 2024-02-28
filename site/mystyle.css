@@ -1,5 +1,5 @@
 html {
-font-family: Courier, monospace; 
+font-family: Courier, monospace;
   background-color: #FFE4E1;
 }
 body {
@@ -11,23 +11,23 @@ nav {
   display: inline
   font-weight: bold;
   background-color: #FFA07A;
- 
+
 }
 p {
   font-size: 24px;
   margin: 12px;
- 
+
 }
 h1 {
-  text-align: center; 
-  color: #DDA0DD; 
+  text-align: center;
+  color: #DDA0DD;
 
 }
 
 
 h2
 {
-  text-align: center; 
+  text-align: center;
   color: #DDA0DD
 }
 
@@ -36,18 +36,18 @@ li {
   padding: 10px;
   font-size: 20px;
   color: #DDA0DD;
-  font-weight: bold; 
+  font-weight: bold;
 }
+
 img {
 float: right;
   width: 25%;
   height: 25%;
-  margin: 5px; 
+  margin: 5px;
  border: 3px dotted yellow;
 }
 
-  
-
 .current {
-background-color: #FFDAB9;
+
+background-color: FFDAB9;
 }
