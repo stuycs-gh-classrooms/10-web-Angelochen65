@@ -54,6 +54,10 @@ background-color: #FFE4E1;
 
 .lung {
   float: left;
+}
 
+.heart {
+width: 25%;
+height: 25%;
   
 }
