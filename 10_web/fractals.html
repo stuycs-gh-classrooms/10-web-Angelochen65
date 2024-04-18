@@ -11,4 +11,55 @@
 
 <h3>Koch Curve</h3>
 
+<pre> <code>
+turt = turtle.Turtle()
+turt1 = turtle.Turtle()
+def mirror_koch(t, t1, depth, length):
+    if depth == 1:
+        t.pencolor(random.randrange(255),random.randrange(255),random.randrange(255))
+        t.fd(length)
+        t1.pencolor(random.randrange(255),random.randrange(255),random.randrange(255))
+        t1.fd(length)
+        t.lt(60)
+        t1.rt(60)
+        t.pencolor(random.randrange(255),random.randrange(255),random.randrange(255))
+        t.fd(length)
+        t1.pencolor(random.randrange(255),random.randrange(255),random.randrange(255))
+        t1.fd(length)
+        t.rt(120)
+        t1.lt(120)
+        t.pencolor(random.randrange(255),random.randrange(255),random.randrange(255))
+        t.fd(2 * length)
+        t1.pencolor(random.randrange(255),random.randrange(255),random.randrange(255))
+        t1.fd(2 * length)
+        t.lt(120)
+        t1.rt(120)
+        t.pencolor(random.randrange(255),random.randrange(255),random.randrange(255))
+        t.fd(length)
+        t1.pencolor(random.randrange(255),random.randrange(255),random.randrange(255))
+        t1.fd(length)
+        t.rt(60)
+        t1.lt(60)
+        t.pencolor(random.randrange(255),random.randrange(255),random.randrange(255))
+        t.fd(length)
+        t1.pencolor(random.randrange(255),random.randrange(255),random.randrange(255))
+        t1.fd(length)
+    else:
+        mirror_koch(t, t1, depth -1, length)
+        t.lt(60)
+        t1.rt(60)
+        mirror_koch(t, t1, depth -1, length)
+        t.rt(120)
+        t1.lt(120)
+        mirror_koch(t, t1, depth -1, length)
+        t.lt(60)
+        t1.rt(60)
+        mirror_koch(t,t1, depth -1, length)
+        
+mirror_koch(turt,turt1,3,10)
+  
+</code>
+  
+</pre>
+
 </body>
