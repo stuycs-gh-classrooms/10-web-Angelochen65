@@ -130,4 +130,52 @@ I also changed the initial tree from being a line, to being rectangles, which ha
 
 <p>My tree with a depth of 4:</p>
 <img src="tree.png">
+
+    <pre>
+        <code>
+            
+turt.lt(90)
+def tree(t, depth, length, angle):
+    if depth == 1:
+        t.pencolor('green')
+        t.fd(length)
+        t.rt(90)
+        a = random.randrange(10)
+        while a == 0:
+            a = random.randrange(10)
+        t.fd(length/a)
+        t.rt(90)
+        t.fd(length)
+        t.rt(90)
+        t.fd(length/a)
+        t.rt(90)
+    else:
+        t.pencolor('brown')
+        t.fd(length)
+        t.rt(90)
+        a = random.randrange(10)
+        while a == 0:
+            a = random.randrange(10)
+        t.fd(length/a)
+        t.rt(90)
+        t.fd(length)
+        t.rt(90)
+        t.fd(length/a)
+        t.rt(90)
+        t.pensize(2)
+        t.fd(length)
+        t.lt(angle)
+        tree(t, depth - 1, length, angle)
+        t.rt(4 * angle)
+        t.fd(length/a)
+        t.lt(angle)
+        tree(t,depth -1,length,angle)
+        t.rt(angle)
+        t.fd(-length/a)
+        t.lt(90)
+        t.fd(-length)    
+
+tree(turt,6,50,30)
+        </code>
+    </pre>
 </body>
