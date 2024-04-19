@@ -68,4 +68,48 @@ mirror_koch(turt,turt1,3,10)
   
 </pre>
 
+<h3>Sierpinski Triangle</h3>
+
+<p>For the sierpinski triangle, I modified the base case so that the second side of the triangle
+is not drawn, and the first side of the triangle is a thicker gray line so the entire figure
+looks more like a shadow-y arrow rather than a triangle, though you can still see
+the triangles. </p>
+
+<p>Original Sierpinski with depth of 3:</p>
+
+<p>My variation with depth of 3:</p>
+
+<img src="images/sierpinski.png">
+    <pre>
+        <code>
+def draw_sierpinski(t, depth, length):
+    if depth == 1:
+        t.lt(60)
+        t.fd(length)
+        t.rt(120)
+        t.pencolor('white')
+        t.pensize(1)
+        t.fd(length)
+        t.rt(120)
+        t.pencolor('black')
+        t.fd(length)
+        t.rt(180)
+        t.pencolor('gray')
+        t.pensize(4)
+    else:
+        draw_sierpinski(t, depth - 1, length/2)
+        t.fd(length/2)
+        draw_sierpinski(t, depth - 1, length/2)
+        t.fd(-length/2)
+        t.lt(60)
+        t.fd(length / 2)
+        t.rt(60)
+        draw_sierpinski(t, depth - 1, length/2)
+        t.rt(120)
+        t.fd(length/2)
+        t.lt(120)
+
+draw_sierpinski(turt,4,200)
+        </code>
+    </pre>
 </body>
