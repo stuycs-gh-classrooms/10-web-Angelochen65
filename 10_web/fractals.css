@@ -1,5 +1,4 @@
 body {
-  margin: auto;
   color: #F0F8FF;
   background-color: #66CDAA;
 
@@ -8,13 +7,13 @@ body {
 
 html {
   font-family: "Courier New", Courier, monospace;
-
-  
+  margin: 12px;
+  align: center;
 }
 
 p {
   font-size: 24px;
-  margin: 12px;
+  
   font-weight: bold;
 
 }
