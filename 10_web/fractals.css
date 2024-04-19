@@ -28,7 +28,9 @@ h3{
   height: 35%; 
 }
 
-
+img {
+  border: solid, 3px yellow;
+}
 code {
   text-align: left;
   font-size: 16px;
