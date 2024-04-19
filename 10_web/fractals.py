@@ -3,7 +3,7 @@ import random
 
 window = turtle.Screen()
 window.colormode(255)
-window.setup(200,2000)
+window.setup(600,600)
 
 
 turt = turtle.Turtle()
@@ -49,7 +49,7 @@ def draw_koch(t, t1, depth, length):
         t.lt(60)
         t1.rt(60)
         draw_koch(t,t1, depth -1, length)
-draw_koch(turt,turt1,5,10)
+draw_koch(turt,turt1,3,10)
 
 def draw_sierpinski(t, depth, length):
     if depth == 1:
@@ -81,9 +81,8 @@ def draw_sierpinski(t, depth, length):
 
 draw_sierpinski(turt,4,200)
 
-
+turt.lt(90)
 def tree(t, depth, length, angle):
-    turt.lt(90)
     if depth == 1:
         t.pencolor('green')
         t.fd(length)
@@ -123,6 +122,6 @@ def tree(t, depth, length, angle):
         t.lt(90)
         t.fd(-length)    
 
-tree(turt,6,50,30)
+tree(turt,4,50,30)
 
 window.exitonclick()
