@@ -19,10 +19,14 @@ HTML_FOOTER = """
 </html>
 """
 
-name = "Blue"
-if ('name' in data):
-    name = data['name'].value
-bgcolor = 'Blue'
+
+name = 'Blue'
 if ('bgcolor' in data):
     bgcolor = data['bgcolor'].value
-print(data)
+
+html= HTML_HEADER
+html+= '<body style="background-color: '
+html+= name + ';">'
+html+= '<br><a href="hello.html">Try Again</a>'
+html+= HTML_FOOTER
+print(html)
