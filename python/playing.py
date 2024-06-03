@@ -22,7 +22,7 @@ HTML_FOOTER = """
 
 name = 'Blue'
 if ('name' in data):
-    name = data['bgcolor'].value
+    name = data['name'].value
 
 html= HTML_HEADER
 html+= '<body style="background-color: '
