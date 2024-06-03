@@ -20,7 +20,7 @@ HTML_FOOTER = """
 """
 
 
-name = 'Blue'
+name = 'Rwar'
 if ('name' in data):
     name = data['name'].value
 
