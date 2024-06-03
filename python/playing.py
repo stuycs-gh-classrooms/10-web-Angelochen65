@@ -27,6 +27,5 @@ if ('name' in data):
 html= HTML_HEADER
 html+= '<body style="background-color: '
 html+= name + ';">'
-html+= '<br><a href="hello.html">Try Again</a>'
 html+= HTML_FOOTER
 print(html)
