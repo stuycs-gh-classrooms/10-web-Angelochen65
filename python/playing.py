@@ -25,7 +25,6 @@ if ('name' in data):
     name = data['name'].value
 
 html= HTML_HEADER
-html+= '<body style="background-color: '
-html+= name + ';">'
+html+= '<p> Hello there ' + name + "! Sadly I think that you're stuck here. There's a weird looking door thing if you want to try to go through it. </p>"
 html+= HTML_FOOTER
 print(html)
