@@ -22,9 +22,9 @@ HTML_FOOTER = """
 
 passcode = '6543'
 if ('passcode' in data):
-    passcode1 = data['passcode'].value
+    passcode = data['passcode'].value
 
-if (passcode1 == passcode):
+if (passcode == '6543'):
     msg = "<a href= p2.html> Next door </a>"
 else:
     msg = "<p> Try Again </p>"
