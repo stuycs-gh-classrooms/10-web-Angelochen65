@@ -20,7 +20,7 @@ HTML_FOOTER = """
 """
 
 
-passcode = '6543'
+passcode = '0000'
 if ('passcode' in data):
     passcode = data['passcode'].value
 
