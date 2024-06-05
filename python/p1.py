@@ -27,7 +27,7 @@ if ('passcode' in data):
 if (passcode1 == passcode):
     msg = "<a href= p2.html> Next door </a>"
 else:
-    msg = "Try Again"
+    msg = "<p> Try Again </p>"
 
 html= HTML_HEADER
 html+= msg
