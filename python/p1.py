@@ -22,7 +22,7 @@ RETURN = """
 <body>
   <t1> There seem to be some weird shapes on the wall... and a lock? Figure out the passcode and access the next door. </t1>
     <p>(Insert images of hexagon, star, square, triangle)</p>
-    <form action = "page1.py" method = "GET">
+    <form action = "p1.py" method = "GET">
     
       <input type = "text" name = "passcode" value = "0000">
       <br>
